@@ -1,0 +1,7 @@
+--- COMPILAR PRODUCCION ---
+go build -ldflags="-H=windowsgui" -o cliente.exe cliente.go
+
+
+
+-- CERAR PROCESOS
+taskkill /F /IM cliente.exe
