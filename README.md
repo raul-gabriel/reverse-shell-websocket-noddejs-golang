@@ -99,10 +99,13 @@ Algunas funcionalidades planeadas para futuras versiones incluyen:
 
 * Mejoras en la estabilidad de conexión.
 * Optimización del protocolo de comunicación.
-* Sistema de autenticación más robusto.
-* Mejoras de rendimiento.
-* Refactorización de componentes.
-* Nuevas funcionalidades orientadas a laboratorios de investigación.
+* ejecucion de codigo en memoria
+* Bypass.
+* tecnicas sofisticas del 2026.
+* explotacion de nuevas vulnerabilidades en windows y apps.
+* version para android
+* servidor c2
+* y otros
 
 Debido a actividades académicas y laborales, el desarrollo se encuentra actualmente pausado.
 
@@ -111,8 +114,8 @@ Debido a actividades académicas y laborales, el desarrollo se encuentra actualm
 Puedes agregar aquí el enlace al video:
 
 ```text
-https://youtube.com/PEGAR_AQUI_EL_ENLACE
-```
+[https://youtube.com/PEGAR_AQUI_EL_ENLACE
+](https://www.youtube.com/watch?v=LsA0BP-JBuY)```
 
 ## Descargo de Responsabilidad
 
