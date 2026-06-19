@@ -150,18 +150,11 @@ El desarrollo se encuentra temporalmente pausado debido a actividades académica
 
 ---
 
-# 🔮 Ideas para Futuras Versiones
+## 🚀 Futuras Mejoras
 
-* Mejoras de rendimiento.
-* Optimización del protocolo de comunicación.
-* Refactorización general del código.
-* Sistema avanzado de autenticación.
-* Mejor administración de sesiones.
-* Mejoras en la interfaz de usuario.
-* Compatibilidad multiplataforma ampliada.
-* Registro y auditoría de eventos.
-* Arquitectura más escalable.
-* Nuevos módulos experimentales para laboratorios de investigación.
+Esta es solo la primera versión del proyecto. Tengo varias ideas y funcionalidades en mente para futuras versiones, pero por motivos de seguridad y privacidad no todas serán documentadas públicamente.
+
+Por ahora, el objetivo es seguir mejorando esta base, optimizar su rendimiento y continuar aprendiendo y experimentando con nuevas tecnologías.
 
 ---
 
