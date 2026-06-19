@@ -114,8 +114,7 @@ Debido a actividades académicas y laborales, el desarrollo se encuentra actualm
 Puedes agregar aquí el enlace al video:
 
 ```text
-[https://youtube.com/PEGAR_AQUI_EL_ENLACE
-](https://www.youtube.com/watch?v=LsA0BP-JBuY)```
+[https://youtube.com/watch?v=LsA0BP-JBuY]```
 
 ## Descargo de Responsabilidad
 
