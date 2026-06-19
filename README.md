@@ -1,12 +1,34 @@
-# Reverse Shell Educativa - Primera Versión
+<h1 align="center">⚡ Reverse Shell Educational Project</h1>
 
-## Descripción
+<p align="center">
+Proyecto experimental desarrollado con fines educativos e investigación en ciberseguridad.
+</p>
 
-Este proyecto es una prueba de concepto desarrollada con fines educativos y de investigación en ciberseguridad. Fue creado para comprender el funcionamiento de arquitecturas cliente-servidor, comunicación en tiempo real mediante WebSockets, transferencia de archivos y administración remota de sistemas.
+<p align="center">
+Node.js • Express • React • Vite • Golang • WebSocket
+</p>
 
-> **Aviso:** Este proyecto fue desarrollado únicamente con fines académicos y de aprendizaje. No debe utilizarse en sistemas o redes sin autorización explícita del propietario.
+<p align="center">
+🚀 Arquitectura Cliente-Servidor • Comunicación en Tiempo Real • Gestión Remota • Transferencia de Archivos
+</p>
 
-## Arquitectura del Proyecto
+---
+
+# 📖 Descripción
+
+Este proyecto nació como una iniciativa personal para comprender en profundidad el funcionamiento de sistemas distribuidos, arquitecturas cliente-servidor y comunicación bidireccional mediante WebSockets.
+
+El objetivo principal fue construir desde cero una prueba de concepto capaz de administrar múltiples clientes conectados a un servidor central, utilizando tecnologías modernas tanto para el backend como para la interfaz de administración.
+
+Se trata de la **primera versión funcional** del proyecto y representa una etapa importante en mi aprendizaje sobre desarrollo de software, redes, concurrencia y comunicación en tiempo real.
+
+> ⚠️ **Aviso Importante**
+>
+> Este proyecto fue desarrollado únicamente con fines educativos, académicos y de investigación. Debe utilizarse exclusivamente en entornos autorizados y controlados.
+
+---
+
+# 🏗️ Arquitectura del Proyecto
 
 ```text
 /
@@ -16,106 +38,187 @@ Este proyecto es una prueba de concepto desarrollada con fines educativos y de i
 └── ExcelExploit/
 ```
 
-### servidor/
+---
 
-Servidor principal desarrollado con Node.js y Express.
+## 📡 servidor/
 
-Responsabilidades:
+Servidor principal desarrollado con **Node.js** y **Express**.
+
+### Responsabilidades
 
 * Gestión de conexiones WebSocket.
 * Administración de clientes conectados.
-* Recepción y envío de comandos.
-* Transferencia de archivos.
-* Coordinación de la comunicación entre operadores y clientes.
+* Coordinación de comunicaciones.
+* Enrutamiento de solicitudes.
+* Recepción y envío de información.
+* Gestión de sesiones activas.
 
-### interfaz_cliente/
+---
 
-Interfaz web desarrollada con React + Vite.
+## 🖥️ interfaz_cliente/
 
-Características:
+Panel de administración desarrollado con **React + Vite**.
+
+### Características
 
 * Visualización de clientes conectados.
 * Administración de sesiones activas.
-* Ejecución remota de comandos.
+* Interfaz moderna basada en SPA.
+* Monitoreo de conexiones.
 * Gestión de archivos.
-* Visualización de capturas de pantalla recibidas.
+* Recepción de información en tiempo real.
 
-### cliente/
+---
 
-Cliente desarrollado en Go (Golang).
+## ⚙️ cliente/
 
-Funciones:
+Cliente desarrollado en **Golang**.
 
-* Conexión persistente al servidor mediante WebSocket.
-* Recepción y ejecución de instrucciones remotas.
-* Envío de información solicitada por el servidor.
+### Funciones
+
+* Conexión persistente mediante WebSocket.
+* Recepción de instrucciones desde el servidor.
+* Intercambio de información.
 * Transferencia de archivos.
-* Captura y envío de pantallas.
+* Comunicación bidireccional en tiempo real.
 
-### ExcelExploit/
+---
 
-Documento Excel que contiene macros utilizadas para pruebas de laboratorio y demostraciones académicas.
+## 📊 ExcelExploit/
 
-Su propósito es simular escenarios de ejecución automática dentro de entornos controlados para estudiar vectores comunes utilizados en ejercicios de seguridad informática.
+Documento Excel utilizado para pruebas de laboratorio relacionadas con macros y automatización.
 
-## Tecnologías Utilizadas
+Su finalidad es estudiar mecanismos de ejecución automática dentro de entornos de prueba controlados y comprender escenarios comúnmente analizados en investigaciones de seguridad informática.
 
-### Backend
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## Backend
 
 * Node.js
 * Express
 * WebSocket
 
-### Frontend
+## Frontend
 
 * React
 * Vite
+* JavaScript
 
-### Cliente
+## Cliente
 
 * Golang
 
-### Otros
+## Otros
 
-* Microsoft Excel VBA (Macros)
+* Microsoft Excel VBA
+* JSON
+* WebSockets
 
-## Características Implementadas
+---
 
-* Comunicación en tiempo real mediante WebSocket.
-* Administración de múltiples clientes.
-* Ejecución remota de comandos.
-* Transferencia de archivos.
-* Captura de pantalla remota.
-* Panel web de administración.
-* Arquitectura cliente-servidor.
+# ✨ Características Implementadas
 
-## Estado del Proyecto
+✅ Comunicación en tiempo real mediante WebSockets.
 
-Esta es la primera versión funcional del proyecto.
+✅ Administración de múltiples clientes simultáneamente.
 
-Actualmente implementa las características básicas necesarias para demostrar la comunicación remota entre cliente y servidor.
+✅ Panel web de administración.
 
-Algunas funcionalidades planeadas para futuras versiones incluyen:
+✅ Transferencia de archivos.
 
-* Mejoras en la estabilidad de conexión.
+✅ Monitoreo de clientes conectados.
+
+✅ Captura de información remota.
+
+✅ Arquitectura modular.
+
+✅ Despliegue en servidores externos.
+
+✅ Funcionamiento tanto en redes locales como a través de Internet.
+
+---
+
+# 🚀 Estado del Proyecto
+
+Esta es la primera versión pública del proyecto.
+
+Aunque se trata de una versión inicial, actualmente cuenta con una base funcional sólida que demuestra correctamente la comunicación entre clientes y servidor, así como la administración centralizada mediante una interfaz web.
+
+El desarrollo se encuentra temporalmente pausado debido a actividades académicas y laborales.
+
+---
+
+# 🔮 Ideas para Futuras Versiones
+
+* Mejoras de rendimiento.
 * Optimización del protocolo de comunicación.
-* ejecucion de codigo en memoria
-* Bypass.
-* tecnicas sofisticas del 2026.
-* explotacion de nuevas vulnerabilidades en windows y apps.
-* version para android
-* servidor c2
-* y otros
+* Refactorización general del código.
+* Sistema avanzado de autenticación.
+* Mejor administración de sesiones.
+* Mejoras en la interfaz de usuario.
+* Compatibilidad multiplataforma ampliada.
+* Registro y auditoría de eventos.
+* Arquitectura más escalable.
+* Nuevos módulos experimentales para laboratorios de investigación.
 
-Debido a actividades académicas y laborales, el desarrollo se encuentra actualmente pausado.
+---
 
-## Video de Demostración
+# 🎥 Demostración en Video
 
-Puedes agregar aquí el enlace al video:
+Si deseas ver el proyecto en funcionamiento, puedes revisar la demostración completa:
 
-```text
-[https://youtube.com/watch?v=LsA0BP-JBuY]```
+## 🔗 Ver Video
 
-## Descargo de Responsabilidad
+### 👉 https://youtube.com/watch?v=LsA0BP-JBuY
 
-El autor no se hace responsable del uso indebido de este software. El proyecto fue creado exclusivamente con fines educativos, de investigación y aprendizaje en entornos autorizados y controlados.
+En el video se muestra:
+
+* Inicio del servidor.
+* Interfaz de administración.
+* Gestión de clientes conectados.
+* Comunicación en tiempo real.
+* Transferencia de archivos.
+* Funcionalidades implementadas en la primera versión.
+
+> 📌 El video corresponde a una versión temprana del proyecto y tiene fines demostrativos.
+
+---
+
+# 📚 Objetivos de Aprendizaje
+
+Durante el desarrollo de este proyecto se exploraron conceptos relacionados con:
+
+* Arquitecturas Cliente-Servidor.
+* Programación de Redes.
+* WebSockets.
+* Desarrollo Backend.
+* Desarrollo Frontend.
+* Golang.
+* Node.js.
+* Sistemas Distribuidos.
+* Comunicación en Tiempo Real.
+* Automatización.
+
+---
+
+# ⚠️ Descargo de Responsabilidad
+
+Este proyecto fue desarrollado exclusivamente con fines educativos, académicos y de investigación.
+
+No debe utilizarse sobre sistemas, dispositivos o redes sin autorización explícita de sus propietarios.
+
+El autor no se hace responsable de cualquier uso indebido, ilegal o no autorizado que terceros puedan realizar con el software.
+
+Todo el contenido publicado tiene como finalidad el aprendizaje, la experimentación y la comprensión de tecnologías relacionadas con redes, programación y ciberseguridad en entornos controlados.
+
+---
+
+<p align="center">
+⭐ Si este proyecto te resultó interesante, considera dejar una estrella en el repositorio.
+</p>
+
+<p align="center">
+Desarrollado por Raúl Hacho Cutipa 🚀
+</p>
